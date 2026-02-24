@@ -33,8 +33,7 @@ Install data science language servers via Mason (run inside Neovim):
 
 | Plugin | Purpose |
 |--------|---------|
-| [avante.nvim](https://github.com/yetone/avante.nvim) | AI assistant (Kimi / Mistral) |
-| [iron.nvim](https://github.com/hkupty/iron.nvim) | REPL for Python, R, shell |
+|[iron.nvim](https://github.com/hkupty/iron.nvim) | REPL for Python, R, shell |
 | [sniprun](https://github.com/michaelb/sniprun) | Run code snippets inline |
 | [supermaven-nvim](https://github.com/supermaven-inc/supermaven-nvim) | AI code completion |
 | [dashboard-nvim](https://github.com/nvimdev/dashboard-nvim) | Start screen |
@@ -52,4 +51,7 @@ Install data science language servers via Mason (run inside Neovim):
 | `<leader>sr` | SnipRun current line / selection |
 | `<leader>sR` | SnipRun entire file |
 | `<Tab>` | Accept Supermaven suggestion |
-| `jk` | Exit insert mode |
+|   `jk` | Exit insert mode |
+
+This new configuration is based on [NvChad](https://github.com/NvChad/NvChad), which is a fork of [NvPak](https://github.com/Pakrohk-DotFiles/NvPak).
+
