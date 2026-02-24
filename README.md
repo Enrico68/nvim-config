@@ -38,6 +38,7 @@ Install data science language servers via Mason (run inside Neovim):
 | [sniprun](https://github.com/michaelb/sniprun) | Run code snippets inline |
 | [supermaven-nvim](https://github.com/supermaven-inc/supermaven-nvim) | AI code completion |
 | [dashboard-nvim](https://github.com/nvimdev/dashboard-nvim) | Start screen |
+| [claude-code.nvim](https://github.com/greggh/claude-code.nvim) | Claude Code integration |
 | [conform.nvim](https://github.com/stevearc/conform.nvim) | Formatting (stylua) |
 
 ## Key Mappings
