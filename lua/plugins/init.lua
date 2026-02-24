@@ -13,16 +13,26 @@ return {
     end,
   },
 
-  -- test new blink
-  -- { import = "nvchad.blink.lazyspec" },
-
-  -- {
-  -- 	"nvim-treesitter/nvim-treesitter",
-  -- 	opts = {
-  -- 		ensure_installed = {
-  -- 			"vim", "lua", "vimdoc",
-  --      "html", "css"
-  -- 		},
-  -- 	},
-  -- },
+  -- ═══════════════════════════════════════════════════════════
+  -- TREESITTER FOR DATA SCIENCE
+  -- ═══════════════════════════════════════════════════════════
+  {
+  	"nvim-treesitter/nvim-treesitter",
+  	opts = {
+  		ensure_installed = {
+  			"vim", "lua", "vimdoc",
+        "html", "css",
+        -- Data Science
+        "python",
+        "r",
+        "julia",
+        "markdown",
+        "markdown_inline",
+        "yaml",
+        "json",
+        "csv",
+        "dot", -- Graphviz
+  		},
+  	},
+  },
 }
